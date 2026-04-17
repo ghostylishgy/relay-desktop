@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M8 18 L8 50 C8 52 10 54 12 54 L52 54 C54 54 56 52 56 50 L56 24 C56 22 54 20 52 20 L28 20 L24 14 L12 14 C10 14 8 16 8 18 Z" fill="none" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2"/>
+  <path d="M8 26 L8 50 C8 52 10 54 12 54 L52 54 C54 54 56 52 56 50 L56 30 C56 28 54 26 52 26 L12 26 C10 26 8 28 8 26 Z" fill="none" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2"/>
+  <circle cx="38" cy="38" r="8" stroke="var(--icon-accent, #7c4dff)" stroke-width="2.5" fill="none"/>
+  <line x1="44" y1="44" x2="50" y2="50" stroke="var(--icon-accent, #7c4dff)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="38" cy="38" r="3" fill="var(--icon-accent, #7c4dff)" opacity="0.5"/>
+</svg>

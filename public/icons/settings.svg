@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M32 14 L36 14 L38 18 C40 19 42 20 44 21 L48 19 L52 23 L50 27 C51 29 52 31 52 33 L56 35 L56 39 L52 41 C52 43 51 45 50 47 L52 51 L48 55 L44 53 C42 54 40 55 38 56 L36 60 L32 60 L30 56 C28 55 26 54 24 53 L20 55 L16 51 L18 47 C17 45 16 43 16 41 L12 39 L12 35 L16 33 C16 31 17 29 18 27 L16 23 L20 19 L24 21 C26 20 28 19 30 18 L32 14 Z" fill="none" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2"/>
+  <circle cx="34" cy="37" r="9" fill="none" stroke="var(--icon-accent, #7c4dff)" stroke-width="2"/>
+  <circle cx="34" cy="37" r="4" fill="var(--icon-accent, #7c4dff)" opacity="0.5"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="var(--icon-primary, #4fc3f7)"/>
+      <stop offset="100%" stop-color="var(--icon-accent, #7c4dff)"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="var(--icon-bg, #16213e)" stroke="url(#g1)" stroke-width="3"/>
+  <rect x="61" y="35" width="6" height="58" rx="3" fill="var(--icon-primary, #4fc3f7)"/>
+  <path d="M64 40 C50 48, 50 56, 64 60 C78 64, 78 72, 64 80" stroke="var(--icon-primary, #4fc3f7)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M64 40 C78 48, 78 56, 64 60 C50 64, 50 72, 64 80" stroke="var(--icon-accent, #29b6f6)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M56 38 L30 22 L38 35 L24 28 L36 40 L50 42 Z" fill="var(--icon-primary, #4fc3f7)" opacity="0.9"/>
+  <path d="M72 38 L98 22 L90 35 L104 28 L92 40 L78 42 Z" fill="var(--icon-primary, #4fc3f7)" opacity="0.9"/>
+  <circle cx="64" cy="32" r="5" fill="var(--icon-highlight, #ffffff)"/>
+</svg>

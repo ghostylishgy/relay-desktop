@@ -1,0 +1,19 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window-set-size",
+    "core:window-set-center",
+    "core:window-get-monitor-size",
+    "core:window-hide",
+    "core:tray-icon-default",
+    "opener:default",
+    "shell:default",
+    "fs:default",
+    "fs:allow-appdata-read-write",
+    "os:default"
+  ]
+}

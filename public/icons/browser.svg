@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="24" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2.5" fill="none"/>
+  <ellipse cx="32" cy="32" rx="24" ry="10" stroke="var(--icon-primary, #4fc3f7)" stroke-width="1.5" fill="none" opacity="0.35"/>
+  <ellipse cx="32" cy="32" rx="10" ry="24" stroke="var(--icon-primary, #4fc3f7)" stroke-width="1.5" fill="none" opacity="0.35"/>
+  <line x1="8" y1="32" x2="56" y2="32" stroke="var(--icon-primary, #4fc3f7)" stroke-width="1.5" opacity="0.35"/>
+  <path d="M18 18 Q32 12, 46 18" stroke="var(--icon-accent, #7c4dff)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="3" fill="var(--icon-accent, #7c4dff)"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect x="8" y="12" width="48" height="34" rx="8" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2.5" fill="none"/>
+  <path d="M20 46 L16 54 L28 46" stroke="var(--icon-primary, #4fc3f7)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  <circle cx="24" cy="29" r="2.5" fill="var(--icon-primary, #4fc3f7)"/>
+  <circle cx="32" cy="29" r="2.5" fill="var(--icon-accent, #7c4dff)"/>
+  <circle cx="40" cy="29" r="2.5" fill="var(--icon-primary, #4fc3f7)"/>
+  <path d="M50 8 L52 14 L58 12 L52 16 L54 22 L50 16 L46 22 L48 16 L42 12 L48 14 Z" fill="var(--icon-accent, #7c4dff)" opacity="0.8"/>
+</svg>

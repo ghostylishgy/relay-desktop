@@ -1,0 +1,109 @@
+/* components/ToolCallCard/ToolCallCard.css */
+
+.tool-call-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: var(--space-2) 0;
+  font-size: var(--font-size-sm);
+}
+
+.tool-call-card.success {
+  border-left: 3px solid var(--success);
+}
+
+.tool-call-card.error {
+  border-left: 3px solid var(--error);
+}
+
+.tool-call-card.pending {
+  border-left: 3px solid var(--warning);
+}
+
+.tool-call-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background-color: var(--bg-tertiary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.tool-call-header:hover {
+  background-color: var(--bg-secondary);
+}
+
+.tool-call-expand {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  width: 12px;
+  text-align: center;
+}
+
+.tool-call-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.tool-call-status-dot.success { background-color: var(--success); }
+.tool-call-status-dot.error { background-color: var(--error); }
+.tool-call-status-dot.pending { background-color: var(--warning); }
+
+.tool-call-name {
+  font-weight: 600;
+  color: var(--accent-secondary);
+  flex: 1;
+}
+
+.tool-call-duration {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.tool-call-body {
+  padding: var(--space-3);
+  background-color: var(--bg-primary);
+}
+
+.tool-call-section {
+  margin-bottom: var(--space-3);
+}
+
+.tool-call-section:last-child {
+  margin-bottom: 0;
+}
+
+.tool-call-section-label {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-1);
+}
+
+.tool-call-args,
+.tool-call-result,
+.tool-call-error {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: var(--font-size-xs);
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-x: auto;
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 0;
+}
+
+.tool-call-error {
+  color: var(--error);
+  background-color: rgba(245, 101, 101, 0.1);
+  border-color: var(--error);
+}
